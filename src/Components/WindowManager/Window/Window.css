@@ -1,0 +1,36 @@
+.Window {
+    position:absolute;
+    margin:0 auto;
+    background-color: rgba(230,230,230,1);
+    border: solid 1px  rgb(200,200,200);
+}
+.Window.active {
+    box-shadow: 0 5px 20px rgba(33, 37, 41, 0.5);
+    transition: box-shadow 0.2s ease-in-out;
+}
+/* scale from 
+.Window.top {
+
+}
+.Window.bottom {
+
+}
+.Window.right {
+
+}
+.Window.left {
+
+}
+
+.Window.topLeft {
+
+}
+.Window.bottomLeft {
+
+}
+.Window.topRight {
+    
+}
+.Window.bottomRight {
+ 
+}*/

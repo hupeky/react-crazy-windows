@@ -1,0 +1,11 @@
+.WindowManager {
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+
+button {
+    position: relative;
+    user-select: none;
+    z-index:100000
+}

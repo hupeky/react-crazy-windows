@@ -1,0 +1,61 @@
+.BoxHandle {
+    position:absolute;
+    background-color: rgba(0,0,0,0);
+    height:15px;
+    width:15px;
+    user-select: none;  
+    transform: unset;
+}
+.BoxHandle:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+.BoxHandle.active {
+    background-color: rgba(255,0,0,0.3);
+}
+
+.BoxHandle.top {
+    width:100%;
+    top:-10px;
+    cursor:ns-resize;
+}
+
+.BoxHandle.bottom {
+    width:100%;
+    bottom:-10px;
+    cursor:ns-resize;
+}
+
+.BoxHandle.right {
+    height:100%;
+    right: -10px;
+    cursor:ew-resize;
+}
+
+.BoxHandle.left {
+    height:100%;
+    left: -10px;
+    cursor:ew-resize;
+}
+
+.BoxHandle.top_left {
+    top:-10px;
+    left:-10px;
+    cursor:nwse-resize;
+}
+
+.BoxHandle.top_right {
+    top:-10px;
+    right:-10px;
+    cursor:nesw-resize;
+}
+.BoxHandle.bottom_left {
+    bottom:-10px;
+    left: -10px;
+    cursor:nesw-resize;
+}
+
+.BoxHandle.bottom_right {
+    bottom:-10px;
+    right: -10px;
+    cursor:nwse-resize
+}

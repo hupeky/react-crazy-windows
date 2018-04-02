@@ -1,0 +1,17 @@
+.App {
+    position:absolute;
+    text-align: center;
+    user-select: none;
+    height:100vh;
+    width:100vw;
+    overflow: hidden;
+
+}
+
+body,html {
+    height:100vh;
+    width:100vw;
+    overflow: hidden;
+}
+
+
