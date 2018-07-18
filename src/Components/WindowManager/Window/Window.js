@@ -3,12 +3,12 @@ import React, {Component} from 'react'
 import BoxHandle from './BoxHandle/BoxHandle'
 import Header from './Header/Header'
 import classes from './Window.css'
-import {Elastic, Back, Bounce} from 'gsap';
-// import CustomEase from "gsap/CustomEase";
+import {Elastic, Back, Bounce} from 'gsap'
+import CustomEase from "gsap/CustomEase"
 
-import TweenMax, {Power4} from 'gsap/src/uncompressed/TweenMax';
-import EasePack from 'gsap/src/uncompressed/easing/EasePack';
-import TimelineMax from 'gsap/src/uncompressed/TimelineMax';
+//import TweenMax, {Power4} from 'gsap/src/uncompressed/TweenMax';
+//import EasePack from 'gsap/src/uncompressed/easing/EasePack';
+import TimelineMax from 'gsap/src/uncompressed/TimelineMax'
 
 
 
@@ -112,7 +112,7 @@ class Window extends Component {
     }
 
     mouseUp = () => {
-        //let animationEase = CustomEase.create( "custom", "M0,0 C0.098,0.176 0.354,0.963 0.362,1 0.37,0.985 0.414,0.873 0.455,0.811 0.51,0.726 0.573,0.753 0.586,0.762 0.662,0.812 0.719,0.981 0.726,0.998 0.788,0.914 0.84,0.936 0.859,0.95 0.878,0.964 0.897,0.985 0.911,0.998 0.922,0.994 0.939,0.984 0.954,0.984 0.969,0.984 1,1 1,1" )
+        let animationEase = CustomEase.create( "custom", "M0,0 C0.098,0.176 0.354,0.963 0.362,1 0.37,0.985 0.414,0.873 0.455,0.811 0.51,0.726 0.573,0.753 0.586,0.762 0.662,0.812 0.719,0.981 0.726,0.998 0.788,0.914 0.84,0.936 0.859,0.95 0.878,0.964 0.897,0.985 0.911,0.998 0.922,0.994 0.939,0.984 0.954,0.984 0.969,0.984 1,1 1,1" )
         //let animationDistance = 10
         //let animationDuration = 0.7
 
